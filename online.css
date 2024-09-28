@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+
+header {
+    background: #0B0D17;
+  }
+  
+  .header {
+    width: 1450px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  header .logo p {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .nav_but {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav_but nav {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav_but nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav_but nav a:hover {
+    text-decoration: none;
+    color: #60CDF6;
+  }
+  
+  .nav_but button {
+    width: 70px;
+    height: 30px;
+    padding: auto;
+    border-radius: 15px;
+    background: #31333D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+main{
+    width: 100%;
+    height: 650px;
+    background-image: url(img/back_online.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kurs_block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.kurs{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 1450px;
+    height: 650px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.kurs_text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text_but_kurs{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.text_but_kurs h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.kurs_text  p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text_but_kurs button{
+    width: 86px;
+    height: 22px;
+    color: #fff;
+    background: #EF3833;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gals_kurs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px;
+}
+
+.gal_kurs{
+    display: flex;
+    gap: 12px;
+}
+
+.gal_kurs img{
+    width: 26px;
+    height: 26px;
+}
+
+.gal_kurs h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kurslar {
+    width: 100%;
+    height: 762px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+  
+    h1{
+      text-align: center;
+      font-size: 38px;
+    }
+  }
+  
+  .kurs_center{
+      width: 1450px;
+      height: 800px;
+      margin: 0 auto;
+  
+      .kursler{
+          width: 100%;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+  
+  
+  .card{
+      border-radius: 12px;
+      margin: 0 auto;
+      background-color: #fff;
+      width: 970px;
+      height: 240px;
+      display: flex;
+      .img{
+          width: 370px;
+          height: 240px;
+          img{
+              width: 100%;
+          }
+      }
+  
+      .info_card{
+          padding: 30px;
+          h2{
+              font-size: 16px;
+              font-weight: 600;
+              color: #475467;
+          }
+      }
+  
+      p{
+          font-size: 14px;
+          font-weight: 400;
+          color: #828282;
+          margin-top: 20px;
+      }
+  
+      .inform{
+          width: 123px;
+          height: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          border-radius: 50px;
+          background: none;
+          border: 1px solid #D0D5DD;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+  
+  }
+  
+  .cards{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 510px;
+      gap: 30px;
+  }
+  
+  .time_card{
+      display: flex;
+      align-items: center;
+      gap: 17px;
+  
+      h1{
+          font-size: 14px;
+          font-weight: 400;
+          color: #475467;
+      }
+  
+      .time{
+          margin-top: 17px;
+          display: flex;
+          align-items: center;
+          gap: 2px;
+  
+          img{
+              font-size: 24px;
+              color: #45CCFF;
+          }
+      }
+  }
+  
+  .cent_card{
+      width: 290px;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      gap: 47px;
+      align-items: center;
+  
+      .cent{
+          margin-top: 32px;
+          width: 290px;
+          height: 96px;
+          gap: 14px;
+          background-color: #F1F1F1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+  
+          h1{
+              font-size: 34px;
+              font-weight: 600;
+              color: #101828;
+          } 
+          
+          .usd{
+              h2{
+                  width: 43px;
+                  height: 32px;
+                  font-size: 20px;
+                  font-weight: 600;
+                  color: #101828;
+              }
+              p{
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: #828282;
+              }
+          }
+      }
+  
+      .buy{
+          width: 154px;
+          height: 44px;
+          background: #53C2EC;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+  }
+
+  
+  .mountain {
+    width: 100%;
+    height: 556px;
+    background-image: url(img/mouns.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mountain .moun_div {
+    width: 1450px;
+    margin: 0 auto;
+  }
+  .mountain .text_num {
+    display: flex;
+    align-items: center;
+    height: 184px;
+  }
+  .mountain .text_num h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .nums {
+    display: flex;
+    justify-content: space-around;
+    width: 1450px;
+    height: 270px;
+    color: #fff;
+  }
+  .nums .number {
+    width: 296px;
+    height: 270px;
+  }
+  .nums .number h1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  .nums .number h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .nums .number p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #D9D9D9;
+  }
+
+  
+  .who_css {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .who_css > .who {
+    width: 1450px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  .who_css > .who h1 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .who_css > .who .foot {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #51555E;
+  }
+  
+  .cats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cats .cat {
+    width: 370px;
+    height: 41px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  
+  .image {
+    width: 100%;
+  }
+  .image img {
+    width: 100%;
+  }  
+
+
+  .skidki{
+    width: 100%;
+    height: 326px;
+    background-image: url(img/back.blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .center_csk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 950px;
+        height: 326px;
+        margin: 0 auto;
+    }
+}
+
+.skidka{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+
+    .cskid{
+        color: #45CCFF;
+    }
+
+    h1{
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: #B8BCC5;
+    }
+
+    button{
+        width: 236px;
+        height: 44px;
+        background: #53C2EC;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+}
+
+.skidka_vers{
+    width: 542px;
+    height: 300px;
+
+    img{
+        width: 100%;
+    }
+}
+
+
+footer{
+    width: 100%;
+    height: 216px;
+    background-color: #0B0D17;
+}
+
+.footer {
+    width: 1450px;    
+    margin: 0 auto;
+    height: 156px;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .footer_text{
+    width: 1450px;
+    margin: 0 auto;
+  }
+
+  .footer_text  p {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .nav_but {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav_but nav {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .img_logo{
+    width: 113px;
+    height: 31px;
+  }
+  
+  .nav_but nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav_but nav a:hover {
+    text-decoration: none;
+    color: #60CDF6;
+  }
+  
+  .nav_but button {
+    width: 70px;
+    height: 30px;
+    padding: auto;
+    border-radius: 15px;
+    background: #31333D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
